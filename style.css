@@ -1,0 +1,20 @@
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%; /* Ensures both html and body take up the full height of the viewport */
+  width: 100%;  /* Ensures both html and body take up the full width of the viewport */
+  background-color: #ffffff;
+  overflow: hidden; /* Prevents any potential scrolling */
+}
+
+iframe {
+  display: block;   /* Removes any default spacing */
+  width: 100%;      /* Takes up the full width of its container */
+  height: 100%;     /* Takes up the full height of its container */
+  border: 0;        /* Removes any default borders */
+}
